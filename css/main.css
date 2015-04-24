@@ -1,0 +1,222 @@
+html{
+  box-sizing: border-box;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+}
+
+header{
+  background-image: url("../images/summerhays-header.jpg");
+  background-size: 100%;
+  padding: 2em 0em;
+}
+
+.intro{
+  padding: .5em .5em .5em .5em;
+}
+
+nav{
+  margin-top: 100px;
+  margin-bottom: 57px;
+}
+
+nav li{
+  display: inline;
+  float: left;
+  padding: .75em;
+  margin-right: -21px;
+}
+
+nav a{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 8.5pt;
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: .5em;
+}
+
+nav ol{
+  padding: 1%;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 8.5pt;
+  text-align: center;
+  line-height: 12px;
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: bold;
+  font-size: 15pt;
+  text-align: center;
+  clear: both;
+}
+
+img{
+  width: 100%;
+  margin-top: -4px;
+  margin-bottom: -4px;
+}
+
+div{
+  background-image: url("../images/chalkboard.jpg");
+  background-size: cover;
+  padding: 1em;
+}
+
+.newsletter{
+  font-family: 'Open Sans', sans-serif;
+  font-style: light;
+  font-size: 8.5pt;
+  color: white;
+  text-align: center;
+  background-image: url("../images/dark-wood.jpg");
+  background-size: cover;
+}
+
+.newsletter h2{
+  margin-bottom: -8px;
+}
+
+.newsletter p{
+  margin-bottom: 110px;
+}
+
+.birthday{
+  font-family: 'Open Sans', sans-serif;
+  font-style: light;
+  font-size: 8.5pt;
+  color: white;
+  text-align: center;
+  background-image: url("../images/birthday-club.jpg");
+  background-size: cover;
+}
+
+.birthday h2{
+  margin-bottom: -10px;
+}
+
+.birthday p{
+  margin-bottom: 150px;
+}
+
+.promotions{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 8.5pt;
+  color: white;
+  text-align: center;
+  background-image: url("../images/light-wood.jpg");
+  background-size: cover;
+}
+
+.promotions h2{
+  margin-bottom: -10px;
+}
+
+.contact{
+  font-family: 'Open Sans', sans-serif;
+  font-style: light;
+  font-size: 8.5pt;
+  color: white;
+  text-align: center;
+  background-image: url("../images/brick-dark.jpg");
+  background-size: cover;
+}
+
+.hours{
+  font-family: 'Open Sans', sans-serif;
+  font-style: light;
+  font-size: 8.5pt;
+  color: white;
+  text-align: center;
+  background-image: url("../images/wine-fade.jpg");
+  background-size: cover;
+}
+
+.reviews{
+  font-family: 'Open Sans', sans-serif;
+  font-style: light;
+  font-size: 8.5pt;
+  color: white;
+  text-align: center;
+  background-image: url("../images/cocktail-fade.jpg");
+  background-size: cover;
+}
+
+.reviews p{
+  margin-bottom: 315px;
+}
+
+.reviews h2{
+  font-size: 25pt;
+  margin-bottom: -10px;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-style: bold;
+  font-size: 28pt;
+  text-align: center;
+  color: white;
+  margin-top: -4px;
+}
+
+h3{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 13pt;
+  text-align: center;
+  color: white;
+}
+
+td{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 10pt;
+  color: white;
+}
+
+.d{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 8pt;
+  color: white;
+}
+
+.info{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 8pt;
+  color: white;
+}
+
+table{
+  width: 100%;
+}
+
+.table d{
+  color: white;
+}
+
+footer{
+  background-color: black;
+  width: 100%;
+  padding: 2em 5em;
+  margin-top: -4px;
+}
+
+footer img{
+  float: left;
+  width: 20%;
+}
